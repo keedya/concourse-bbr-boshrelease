@@ -1,6 +1,6 @@
 ---
 name: concourse-bbr
 blobstore:
-  provider: s3
+  provider: local
   options:
-    bucket_name: concourse-bbr-boshrelease
+    blobstore_path: /tmp
