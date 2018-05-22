@@ -1,9 +1,8 @@
 ---
-name: concourse-bbr-boshrelease
+name: concourse-bbr
 blobstore:
   provider: s3
   options:
     bucket_name: concourse-bbr-boshrelease
     region: ap-northeast-1
     endpoint: https://s3-ap-northeast-1.amazonaws.com
-final_name: concourse-bbr
